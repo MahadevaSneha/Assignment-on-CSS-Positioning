@@ -1,0 +1,37 @@
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  background-color: rgb(99, 96, 97);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 25px;
+  float: left;
+}
+#navbar ul li a:hover {
+  background-color: bisque;
+  color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: blue;
+  font-weight: 200;
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 14px 5px;
+}
